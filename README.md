@@ -9,6 +9,35 @@ The project works after installing Create React App https://github.com/facebook/
 and Material UI https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/templates/
 
 ---
+# Installation
+
+Install Create React App
+
+```bash
+npm install create-react-app
+npx create-react-app my-app
+cd my-app
+npm start
+```
+Add Signin.js in your src folder
+In app.js add following line
+
+```bash
+import SignIn from './Signin';
+```
+Replace return() with 
+```bash
+return (
+        <SignIn />
+  );
+```
+Install material-ui componenets
+
+```bash
+cd my-app
+npm start
+```
+
 
 ## Reporting bugs
 Please use the GitHub issue tracker for any bugs or feature suggestions:
