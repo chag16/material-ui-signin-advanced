@@ -16,30 +16,38 @@ Install Create React App
 ```bash
 npm install create-react-app
 npx create-react-app my-app
-cd my-app
-npm start
 ```
-Add Signin.js in your src folder
-In app.js 
-1. Add thefollowing line
+Add Signin.js from repo into your my-app/src folder
+
+Edit app.js 
+1. Add 
 
 ```bash
 import SignIn from './Signin';
 ```
-2. Replace return() with 
+
+2. Replace return()  
 
 ```bash
-return (
-        <SignIn />
-  );
+return ( 
+                <SignIn /> 
+        );
 ```
-Install material-ui componenets
+
+3. Install material-ui componenets and any other missing packages
 
 ```bash
 cd my-app
-npm start
+npm install @material-ui/core
+npm install @material-ui/icons
+npm install universal-cookie
 ```
 
+4. Start
+
+```bash
+npm start
+```
 
 ## Reporting bugs
 Please use the GitHub issue tracker for any bugs or feature suggestions:
