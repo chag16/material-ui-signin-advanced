@@ -20,12 +20,14 @@ cd my-app
 npm start
 ```
 Add Signin.js in your src folder
-In app.js add following line
+In app.js 
+1. Add thefollowing line
 
 ```bash
 import SignIn from './Signin';
 ```
-Replace return() with 
+2. Replace return() with 
+
 ```bash
 return (
         <SignIn />
