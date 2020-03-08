@@ -19,19 +19,17 @@ npx create-react-app my-app
 ```
 Add Signin.js from repo into your my-app/src folder
 
-Edit app.js 
-1. Add 
+1. Edit app.js 
+a) Add 
 
 ```bash
 import SignIn from './Signin';
 ```
 
-2. Replace return()  
+b) Replace return()  
 
 ```bash
-return ( 
-                <SignIn /> 
-        );
+return (<SignIn />);
 ```
 
 3. Install material-ui componenets and any other missing packages
