@@ -20,14 +20,14 @@ npx create-react-app my-app
 Add Signin.js from repo into your my-app/src folder
 
 1. Edit app.js
-
-a) Add 
+  
+  Add 
 
 ```bash
 import SignIn from './Signin';
 ```
 
-b) Replace return()  
+  Replace return()  
 
 ```bash
 return (<SignIn />);
