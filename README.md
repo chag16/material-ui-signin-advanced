@@ -1,6 +1,6 @@
 # material-ui-signin-advanced
 
-Material UI functionalities in single page 
+Material UI functionalities in a single page 
 1. Sign In 
 2. Sign Up 
 3. Forgot Password 
