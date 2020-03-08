@@ -19,7 +19,8 @@ npx create-react-app my-app
 ```
 Add Signin.js from repo into your my-app/src folder
 
-1. Edit app.js 
+1. Edit app.js
+
 a) Add 
 
 ```bash
@@ -45,6 +46,16 @@ npm install universal-cookie
 
 ```bash
 npm start
+```
+# Edit
+
+Change the server, site_name, site_type according to your requirements
+
+```bash
+//import { server,site_name,site_type } from './environ';
+const server    = 'www.example.com';
+const site_name = 'Sample Site';
+const site_type = 'nature'
 ```
 
 ## Reporting bugs
