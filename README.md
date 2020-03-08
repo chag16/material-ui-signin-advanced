@@ -5,8 +5,8 @@ Material UI functionalities in single page
 2. Sign Up 
 3. Forgot Password 
 
-The project works after installing Create React App https://github.com/facebook/create-react-app 
-and Material UI https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/templates/
+The project works with Create React App https://github.com/facebook/create-react-app 
+and Material UI https://github.com/mui-org/material-ui
 
 ---
 # Installation
